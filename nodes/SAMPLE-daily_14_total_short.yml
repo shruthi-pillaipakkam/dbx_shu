@@ -1,0 +1,50 @@
+fileVersion: 1
+id: d930b3ca-82e2-49ef-9c81-658900a240b4
+name: daily_14_total_short
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 75be4dab-738e-4791-a1e4-019446e8297b
+          stepCounter: d930b3ca-82e2-49ef-9c81-658900a240b4
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        name: t
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f13033bc-e8fd-4e61-abe4-9abc20d523c0
+          stepCounter: d930b3ca-82e2-49ef-9c81-658900a240b4
+        config: {}
+        dataType: VARIANT
+        defaultValue: ""
+        description: ""
+        name: v
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: daily_14_total_short
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
