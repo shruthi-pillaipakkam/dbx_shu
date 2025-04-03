@@ -5,7 +5,7 @@ mappingDefinitions:
     database: coalesce
     schema: sample_data
   WORK:
-    database: shruthi_dev
-    schema: test_schema
+    database: ben-dev
+    schema: shruthi-env
 name: New Environment
 type: Environment
