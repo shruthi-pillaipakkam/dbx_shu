@@ -5,7 +5,7 @@ mappingDefinitions:
     database: coalesce
     schema: sample_data
   WORK:
-    database: ben-dev
-    schema: shruthi-env
+    database: jenn_dev
+    schema: goldblum_env
 name: New Environment
 type: Environment
