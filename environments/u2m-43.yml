@@ -5,7 +5,7 @@ mappingDefinitions:
     database: coalesce
     schema: sample_data
   WORK:
-    database: jennb_dev2
+    database: jenn_dev
     schema: default
 name: u2m
 type: Environment
