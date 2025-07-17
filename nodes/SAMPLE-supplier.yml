@@ -1,135 +1,134 @@
-fileVersion: 1
-id: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
-name: supplier
-operation:
-  database: ""
-  deployEnabled: true
-  description: ""
-  locationName: SAMPLE
-  metadata:
-    columns:
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 26a19681-44a5-4ab1-9307-19b03c4dd15f
-          stepCounter: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
-        config: {}
-        dataType: LONG
-        defaultValue: ""
-        description: ""
-        name: s_suppkey
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences: []
+steps:
+  supplier-7e79c2b3-a494-47ce-b07c-518ce2fcda97:
+    operation:
+      database: ""
+      deployEnabled: true
+      description: ""
+      id: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
+      locationName: SAMPLE
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 26a19681-44a5-4ab1-9307-19b03c4dd15f
+              stepCounter: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
+            config: {}
+            dataType: LONG
+            defaultValue: ""
+            description: ""
+            name: s_suppkey
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
             transform: ""
-        transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 24d621c0-576e-4681-ab81-15c91a900ab6
-          stepCounter: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: ""
-        name: s_name
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences: []
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 24d621c0-576e-4681-ab81-15c91a900ab6
+              stepCounter: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: ""
+            name: s_name
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
             transform: ""
-        transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: c0a9463e-78a0-4f18-8fd4-26dab7cd041b
-          stepCounter: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: ""
-        name: s_address
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences: []
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: c0a9463e-78a0-4f18-8fd4-26dab7cd041b
+              stepCounter: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: ""
+            name: s_address
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
             transform: ""
-        transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 70c96206-6195-4606-a344-9ae4c2c5d81d
-          stepCounter: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
-        config: {}
-        dataType: LONG
-        defaultValue: ""
-        description: ""
-        name: s_nationkey
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences: []
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 70c96206-6195-4606-a344-9ae4c2c5d81d
+              stepCounter: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
+            config: {}
+            dataType: LONG
+            defaultValue: ""
+            description: ""
+            name: s_nationkey
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
             transform: ""
-        transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: fddb0ed6-8138-4042-8f13-5159ee9ff6f1
-          stepCounter: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: ""
-        name: s_phone
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences: []
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: fddb0ed6-8138-4042-8f13-5159ee9ff6f1
+              stepCounter: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: ""
+            name: s_phone
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
             transform: ""
-        transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 158b0be1-bd8f-4940-a314-74a122e52579
-          stepCounter: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
-        config: {}
-        dataType: DECIMAL
-        defaultValue: ""
-        description: ""
-        name: s_acctbal
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences: []
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 158b0be1-bd8f-4940-a314-74a122e52579
+              stepCounter: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
+            config: {}
+            dataType: DECIMAL
+            defaultValue: ""
+            description: ""
+            name: s_acctbal
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
             transform: ""
-        transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: c7ecb197-5da9-4b9a-adde-24206f3c3d31
-          stepCounter: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: ""
-        name: s_comment
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences: []
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: c7ecb197-5da9-4b9a-adde-24206f3c3d31
+              stepCounter: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: ""
+            name: s_comment
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
             transform: ""
-        transform: ""
-  name: supplier
-  schema: ""
-  sqlType: Source
-  type: sourceInput
-  version: 1
-type: Node
+      name: supplier
+      schema: ""
+      sqlType: Source
+      type: sourceInput
+    stepCounter: 7e79c2b3-a494-47ce-b07c-518ce2fcda97
