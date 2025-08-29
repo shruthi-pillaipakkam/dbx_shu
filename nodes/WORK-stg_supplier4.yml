@@ -1,0 +1,123 @@
+steps:
+  stg_supplier4-6d9ce4e0-d42d-40a3-8c95-c1265bc9d121:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      id: 6d9ce4e0-d42d-40a3-8c95-c1265bc9d121
+      isMultisource: false
+      locationName: WORK
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: bd145b6f-2dcf-4696-ae19-ae9542180b2b
+              stepCounter: 6d9ce4e0-d42d-40a3-8c95-c1265bc9d121
+            dataType: LONG
+            description: ""
+            name: s_suppkey
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 9c0f55da-5b69-4da2-a3ec-da4d9e166935
+                    stepCounter: 5c1b43e6-a259-4a74-b345-942053b764ef
+                transform: ""
+          - columnReference:
+              columnCounter: cd7549ca-33ae-44ae-96e2-70ae4707a280
+              stepCounter: 6d9ce4e0-d42d-40a3-8c95-c1265bc9d121
+            dataType: STRING
+            description: ""
+            name: s_name
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 24db4435-b204-4639-9dd2-1c1879a90c6e
+                    stepCounter: 5c1b43e6-a259-4a74-b345-942053b764ef
+                transform: ""
+          - columnReference:
+              columnCounter: 4d8f388f-0198-4ec2-a226-e35d4e9281b5
+              stepCounter: 6d9ce4e0-d42d-40a3-8c95-c1265bc9d121
+            dataType: STRING
+            description: ""
+            name: s_address
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 9beae14d-6118-431a-afd5-8238d7f8d560
+                    stepCounter: 5c1b43e6-a259-4a74-b345-942053b764ef
+                transform: ""
+          - columnReference:
+              columnCounter: 697ab99e-ae73-426f-ab59-73958dfce300
+              stepCounter: 6d9ce4e0-d42d-40a3-8c95-c1265bc9d121
+            dataType: LONG
+            description: ""
+            name: s_nationkey
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: b741f064-ab17-4d56-a570-0e3559b213ef
+                    stepCounter: 5c1b43e6-a259-4a74-b345-942053b764ef
+                transform: ""
+          - columnReference:
+              columnCounter: 30525c01-83c4-4611-96ce-f85708df38c7
+              stepCounter: 6d9ce4e0-d42d-40a3-8c95-c1265bc9d121
+            dataType: STRING
+            description: ""
+            name: s_phone
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 1d18f68c-1b10-4b79-a2ed-effbce7caade
+                    stepCounter: 5c1b43e6-a259-4a74-b345-942053b764ef
+                transform: ""
+          - columnReference:
+              columnCounter: 533a7ccd-43ec-4e17-9fb1-693a56280c50
+              stepCounter: 6d9ce4e0-d42d-40a3-8c95-c1265bc9d121
+            dataType: DECIMAL
+            description: ""
+            name: s_acctbal
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6df45033-59ce-4e83-9e8d-6f3af90ff766
+                    stepCounter: 5c1b43e6-a259-4a74-b345-942053b764ef
+                transform: ""
+          - columnReference:
+              columnCounter: 6cdfa0b2-6db5-466b-8e83-a1a68bdd3f25
+              stepCounter: 6d9ce4e0-d42d-40a3-8c95-c1265bc9d121
+            dataType: STRING
+            description: ""
+            name: s_comment
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: ed54b80c-0358-4634-8e09-8986d541d7cf
+                    stepCounter: 5c1b43e6-a259-4a74-b345-942053b764ef
+                transform: ""
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - aliases:
+              stg_supplier: 5c1b43e6-a259-4a74-b345-942053b764ef
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: WORK
+                nodeName: stg_supplier
+            join:
+              joinCondition: FROM {{ ref('WORK', 'stg_supplier') }} `stg_supplier`
+            name: stg_supplier4
+            noLinkRefs: []
+      name: stg_supplier4
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: 6d9ce4e0-d42d-40a3-8c95-c1265bc9d121
