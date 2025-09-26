@@ -58,7 +58,7 @@ operation:
           - columnReferences:
               - columnCounter: cff25da0-c1da-47cb-affe-6494213ade04
                 stepCounter: e9c62f5a-1d0a-4c86-9bd2-2335b65f6749
-            transform: ""
+            transform: "1"
       - appliedColumnTests: {}
         columnReference:
           columnCounter: eb7b57c5-afb5-4806-870f-d65d199a6972
@@ -72,7 +72,7 @@ operation:
           - columnReferences:
               - columnCounter: d9606a43-9015-4650-bebf-9a196e94f851
                 stepCounter: e9c62f5a-1d0a-4c86-9bd2-2335b65f6749
-            transform: ""
+            transform: "1"
       - appliedColumnTests: {}
         columnReference:
           columnCounter: a346e467-0e17-4045-8d20-47608e2bb963
@@ -86,7 +86,7 @@ operation:
           - columnReferences:
               - columnCounter: a5bb46cb-bc72-4a02-8b18-1b282510085b
                 stepCounter: e9c62f5a-1d0a-4c86-9bd2-2335b65f6749
-            transform: ""
+            transform: "1"
       - appliedColumnTests: {}
         columnReference:
           columnCounter: e8edf29c-72ed-4046-96aa-904da236835a
@@ -100,7 +100,7 @@ operation:
           - columnReferences:
               - columnCounter: 025be7fb-f1a4-4552-96cb-99a8b0ff4dd6
                 stepCounter: e9c62f5a-1d0a-4c86-9bd2-2335b65f6749
-            transform: ""
+            transform: "1"
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 19af4b80-b6ef-43b2-8e7d-c2056a8efbdb

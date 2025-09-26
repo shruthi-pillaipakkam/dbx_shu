@@ -1,0 +1,10 @@
+config:
+  entities:
+    nodeTypes: {}
+  packageVariables: ""
+fileVersion: 1
+id: "@coalesce/databricks/test723"
+name: dbx
+packageID: "@coalesce/databricks/test723"
+releaseID: 1423bde9-852b-4afc-8c2f-c0082e9bc9e4
+type: Package
